@@ -27,5 +27,6 @@ Cite pyannot audio if you use it for a paper:
 
 ## TODO
 
+- [ ] Make sure pyannot.audio pipeline uses GPU, as currently preprocessing takes way too long
 - [ ] Add pip installs for all packages to the notebook
 - [ ] Improve README
