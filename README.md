@@ -1,6 +1,15 @@
 # InterviewSpeakerTranscription
 Useses Openai [whsiper](https://github.com/openai/whisper) and [pyannot.audio](https://github.com/pyannote/pyannote-audio) to transcribe audio from interviews and focus groups with speaker identification.
 
+# Setup
+
+- Create a `dataFolder` and `outFolder` folder in the directory next to the notebooks and put your audio files into the `dataFolder` (current default is m4a but should work with any file format - have to change things in the ffmpeg code line).
+
+- Run the notebook `00-TranscribeInterviewsSpeakerdetection.ipynb` - pip install missing packages
+- Transcripts are then in a transcriptfolder in the `outFolder`
+
+# Citations
+
 Cite pyannot audio if you use it for a paper:
 
 ```
@@ -19,11 +28,6 @@ Cite pyannot audio if you use it for a paper:
   Year = {2021},
 }
 ```
-# Setup
-
-- Create a `data` folder and put your audio files into that (current default is m4a but should work with any file format - have to change things in the ffmpeg code line).
-
-- Run the notebook `00-TranscribeInterviewsSpeakerdetection.ipynb` - pip install missing packages
 
 ## TODO
 
